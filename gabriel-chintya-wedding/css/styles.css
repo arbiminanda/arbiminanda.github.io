@@ -1,0 +1,338 @@
+.row-header {
+  background-color: #00bddc;
+  margin: 0px auto;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	color:#9b9a8b;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.gaya
+{
+display: inline-block;
+	width: 65px;
+	height: 65px;
+	/*background: rgba(241, 78, 149, 0.8);*/
+	background-color:#d19892;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+	animation: pulse 1s ease infinite;
+	color:#FFFFFF;
+	font-size:28px;
+	margin-top:10px;
+	padding-top:7px;
+}
+
+.gaya span
+{
+	font-size:8px;
+	display:block;
+	color:white;
+	margin-top:-10px;
+	font-family: Montserrat, sans-serif;
+}
+
+.couple-wrap {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+@media screen and (max-width: 768px) {
+	.couple-wrap {
+	width: 100%;
+	}
+}
+
+.heart {
+	position: absolute;
+	top: 4em;
+	left: 0;
+	right: 0;
+	z-index: 99;
+	animation: pulse 1s ease infinite;
+}
+.heart i {
+	font-size: 20px;
+	background: #fff;
+	padding: 20px;
+	color: #F14E95;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+	.heart {
+	display: none;
+	}
+}
+
+.couple-half {
+	width: 50%;
+	float: left;
+}
+@media screen and (max-width: 768px) {
+	.couple-half {
+	width: 100%;
+	}
+}
+.couple-half h3 {
+	font-family: 'Roboto Slab', serif;
+	color:#474848;
+	font-size: 20px;
+}
+.couple-half .groom, .couple-half .bride {
+	float: left;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+.couple-half .groom img, .couple-half .bride img {
+	width: 150px;
+	height: 150px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+}
+@media screen and (max-width: 480px) {
+	.couple-half .groom, .couple-half .bride {
+	width: 100%;
+	height: 140px;
+	}
+	.couple-half .groom img, .couple-half .bride img {
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	}
+}
+.couple-half .groom {
+	float: right;
+	margin-right: 5px;
+}
+.couple-half .bride {
+	float: left;
+	margin-left: 5px;
+}
+.couple-half .desc-groom {
+	padding-right: 180px;
+	text-align: right;
+}
+.couple-half .desc-bride {
+	padding-left: 180px;
+	text-align: left;
+}
+@media screen and (max-width: 480px) {
+	.couple-half .groom, .couple-half .bride {
+	margin-left: 0;
+	margin-right: 0;
+	}
+	.couple-half .desc-groom {
+	padding-right: 0;
+	text-align: center;
+	}
+	.couple-half .desc-bride {
+	padding-left: 0;
+	text-align: center;
+	}
+}
+
+.videoWrapper 
+{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.float
+{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 40px;
+	right: 15px;
+	background-color: #d19892;
+	opacity: 0.8;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	padding-top:12px;	
+	z-index: 99;
+}
+
+.cd-timeline__container::before
+{
+	background-color:#d19892;
+}
+
+.cd-timeline__content
+{
+	-webkit-box-shadow: 0 3px 0 #d19892;
+	box-shadow: 0 3px 0 #d19892;
+}
+
+.content_event1
+{
+	 border: 2px solid #d19892;
+}
+
+.atas_kiri
+{
+	background-color:#d19892;
+}
+
+.atas_kanan
+{
+	background-color:#d19892;
+}
+
+.bawah_kiri
+{
+	background-color:#d19892;
+}
+
+.bawah_kanan
+{
+	background-color:#d19892;
+}
+
+.form-input
+{
+		padding:10px;
+		border-radius:5px;
+		border: 1px solid #d19892;
+		background-color:white;
+}
+
+@media(max-width : 720px)
+{
+	#fh5co-header
+	{
+		background-image:url(https://grinvitation.com/00.asset/images/hermansyahicawedding/background_mobile_908.jpg);
+		 background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		 background-size: cover;
+		 height:700px;
+	}
+	
+	.br
+	{
+		margin-left:10px;
+	}
+	
+	.caseless
+	{
+			width:80%;
+			margin-top:10px;
+			font-size:14px;
+	}
+}
+@media(min-width : 720px)
+{
+	#fh5co-header
+	{
+		background-image:url(https://grinvitation.com/00.asset/images/hermansyahicawedding/background_desktop_908.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center; 
+		 background-size: cover;
+		 height:700px;
+	}
+	
+	.br
+	{
+		margin-left:10px;
+	}
+	
+	.caseless
+	{
+			width:20%;
+			float:left;
+			margin-left:10%;
+			margin-top:10px;
+			font-size:14px;
+	}
+}
+
+@font-face
+{
+		 font-family: 'Font Digital';
+		 src: url('GracedScriptPersonalUse-V5XV.ttf');
+}
+
+@font-face
+{
+		 font-family: 'Font Digital 2';
+		 src: url('Daniels Signature DEMO.ttf');
+}
+
+#font_digital {
+		 font-family: 'Font Digital';
+		 }
+		 
+#font_digital_2 {
+		 font-family: 'Font Digital 2';
+		 font-size:60px;
+		 }
+
+#font_digital_2 span{
+		 font-family: Montserrat, sans-serif;
+		 text-transform:uppercase;
+		 color:#474848;
+		 margin-top:-20px;
+		 }
+		 
+.alamat_saja
+{
+		font-family: Cormorant Infant, serif; font-size:28px; color:#474848;
+		text-transform:uppercase;
+}
+.alamat_saja span
+{
+		font-family: Cormorant Infant, serif; font-size:14px; color:#474848;
+		text-transform:uppercase;
+		display:block;
+		margin-top:-5px;
+}
+
+#contoh1::-webkit-input-placeholder{
+	color: #d19892;
+}
